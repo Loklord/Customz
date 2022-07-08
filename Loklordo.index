@@ -9,6 +9,6 @@
 	<files>
 		<file name="file1.xml" url="https://raw.githubusercontent.com/Loklord/Customz/master/Loklordo/file1.xml" />
 		<file name="file2.xml" url="https://raw.githubusercontent.com/Loklord/Customz/master/Loklordo/file2.xml" />
-		<file name="race-bat-folk.xml" url="https://raw.githubusercontent.com/Loklord/Customz/master/Races/race-bat-folk.xml" />
+		<file name="race-bat-folk.xml" url="https://raw.githubusercontent.com/Loklord/Customz/master/Loklordo/Races/race-bat-folk.xml" />
 	</files>
 </index>
