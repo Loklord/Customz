@@ -4,7 +4,7 @@
         <name>Dryad</name>
         <description></description>
         <update version="0.0.1">
-            <file name="race-bat-folk.xml" url="https://raw.githubusercontent.com/Loklord/Customz/master/Loklordo/Races/race-bat-folk.xml" />
+            <file name="race-bat-folk.xml" url="https://raw.githubusercontent.com/Loklord/Customz/master/Loklordo/race-bat-folk.xml" />
         </update>
     </info>
 
