@@ -72,6 +72,7 @@
         <sheet>
             <description>You gain proficiency in the Perception skill. Additionally, if you are not deafened, you  have advantage on any Wisdom (Perception) check made  within your blindsight.</description>
         </sheet>
+    </element>
     <element name="One With Darkness" type="Racial Trait" source="Customz" id="ID_RACIAL_TRAIT_BATFOLK_ONE_WITH_DARKNESS">
         <description>
             <p>You know the vicious mockery cantrip. When you reach 3rd level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a short or long rest. Wisdom is your spellcasting ability for these spells.</p>
