@@ -1,5 +1,5 @@
-# repositoryname
-additional content to extend [Aurora](https://aurorabuilder.com/), by yourname
+# Customz
+additional content to extend [Aurora](https://aurorabuilder.com/), by Loklordo
 
 index url: https://raw.githubusercontent.com/Loklord/Customz/master/Loklordo.index
 
