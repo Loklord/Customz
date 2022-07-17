@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>SpiderFolk</name>
+        <description></description>
+        <update version="0.0.1">
+            <file name="race-spider-folk.xml" url="https://raw.githubusercontent.com/Loklord/Customz/master/Loklordo/race-spider-folk.xml" />
+        </update>
+    </info>
+
+    <element name="Spider Folk" type="Race" source="Customz" id="ID_CUST_RACE_SPIDERFOLK">
+        <description>
+            <h4>PHYSICAL DESCRIPTION</h4>
+            <p>Bat Folk are closely related to rodents in terms of base stats, but due to their flight and how they see, they play much differently.</p>
+            <h4>SPIDERFOLK TRAITS</h4>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Dexterity, Wisdom, and Charisma scores increase by 1.<br />
+                <span class="feature">Age.</span>Spider folk mature by about 30, and most live to about 200.<br />
+                <span class="feature">Alignment.</span> Nearly all spider folk are innately evil. However, they vary in terms of lawful and chaotic.<br />
+                <span class="feature">Size.</span>You are about the same size as a human. Your size is Medium.<br />
+                <span class="feature">Speed.</span>Your base walking speed is 30 feet.You have a climbing speed of 30 feet.<br />
+                <span class="feature">Stealthy.</span>You gain proficiency in the Stealth skill.<br />
+                <span class="feature">Darkvision.</span>You can see dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+                <span class="feature">Spider Climb.</span>You can climb on difficult surfaces, including upside down on ceilings, without needing to make an ability check<br />
+                <span class="feature">Web Walker</span>You ignore movement restrictions caused by webbing.<br />
+                <span class="feature">Web.</span>At 1st level, you can cast the web spell once with this trait and regain the ability to do so when you finish a long rest.<br />
+                <span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br />
+            </p>
+        </description>
+        <rules>
+            <stat name="dexterity" value="1" />
+            <stat name="wisdom" value="1" />
+            <stat name="charisma" value="1" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPIDERFOLK_STEALTHY" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPIDERFOLK_SPIDER_CLIMB" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPIDERFOLK_WEB_WALKER" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPIDERFOLK_WEB" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <select type="Language" name="Language, " supports="Standard||Exotic" />
+        </rules>
+    </element>
+    <element name="Stealthy" type="Racial Trait" source="Customz" id="ID_RACIAL_TRAIT_SPIDERFOLK_STEALTHY">
+        <description>
+            <p>You gain proficiency in the Stealth skill.</p>
+        </description>
+        <sheet>
+            <description>You gain proficiency in the Stealth skill.</description>
+        </sheet>
+    </element>
+    <element name="Spider Climb" type="Racial Trait" source="Customz" id="ID_RACIAL_TRAIT_SPIDERFOLK_SPIDER_CLIMB">
+        <description>
+            <p>You can climb on difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>
+        </description>
+        <sheet>
+            <description>You can climb on difficult surfaces, including upside down on ceilings, without needing to make an ability check.</description>
+        </sheet>
+    </element>
+    <element name="Web Walker" type="Racial Trait" source="Customz" id="ID_RACIAL_TRAIT_SPIDERFOLK_WEB_WALKER">
+        <description>
+            <p>You ignore movement restrictions caused by webbing.</p>
+        </description>
+        <sheet>
+            <description>You ignore movement restrictions caused by webbing.</description>
+        </sheet>
+    </element>
+    <element name="Web" type="Racial Trait" source="Customz" id="ID_RACIAL_TRAIT_SPIDERFOLK_WEB">
+        <description>
+            <p>At 1st level, you can cast the web spell once with this trait and regain the ability to do so when you finish a long rest rest.</p>
+        </description>
+        <sheet>
+            <description>At 1st level, you can cast the web spell once with this trait and regain the ability to do so when you finish a long rest.</description>
+        </sheet>
+    </element>
+</elements>
